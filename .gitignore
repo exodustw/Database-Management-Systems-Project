@@ -1,2 +1,3 @@
 exec/sql.php
 test/
+*.sql
