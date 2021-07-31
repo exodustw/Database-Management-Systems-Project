@@ -1,6 +1,6 @@
 # Database-Management-Systems-Project
 
-## 台北 先看才行
+## 台北 先看才行 (Look Before You Go to Taipei)
 ![logo](resource/logo-black.png)
 
 ## 基本介紹
