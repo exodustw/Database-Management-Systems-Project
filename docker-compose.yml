@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web:
+    container_name: dmsp-apache2
+    restart: always
+    build: ./web
+    ports:
+      - 2000:80
+    volumes:
+      - ./web/:/var/www/html
+  db:
+    container_name: dmsp-mysql
+    restart: always
+    build: ./db
+    expose:
+      - "3306"
